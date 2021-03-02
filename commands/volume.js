@@ -6,7 +6,7 @@ exports.run = async (client, message, args) => {
 
     if (!args[0]) return message.channel.send(`${client.emotes.error} - Please enter a number !`);
 
-    if (isNaN(args[0]) || 100 < args[0] || args[0] <= 0) return message.channel.send(`${client.emotes.error} - Please enter a valid number (between 1 and 100) !`);
+    if (isNaN(args[0]) || 350 < args[0] || args[0] <= 0) return message.channel.send(`${client.emotes.error} - Please enter a valid number (between 1 and 350) !`);
 
     if (message.content.includes('-') || message.content.includes('+') || message.content.includes(',') || message.content.includes('.')) return message.channel.send(`${client.emotes.error} - Please enter a valid number !`);
 
