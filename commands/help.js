@@ -4,7 +4,7 @@ exports.run = async (client, message) => {
         embed: {
             color: 'ORANGE',
             author: { name: 'Help pannel' },
-            footer: { text: '...' },
+            footer: { text: 'Get all commands name and description' },
             fields: [
                 { name: 'Bot', value: '`ping`' },
                 { name: 'Music', value: '`play`, `pause`, `resume`, `queue`, `clear-queue`, `shuffle`, `np`, `loop`, `volume`, `skip`, `stop`' },
