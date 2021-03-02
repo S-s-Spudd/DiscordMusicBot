@@ -4,7 +4,7 @@ exports.run = async (client, message) => {
         embed: {
             color: 'ORANGE',
             author: { name: 'Help pannel' },
-            footer: { text: 'github.com/reconlx/music-bot' },
+            footer: { text: '...' },
             fields: [
                 { name: 'Bot', value: '`ping`' },
                 { name: 'Music', value: '`play`, `pause`, `resume`, `queue`, `clear-queue`, `shuffle`, `np`, `loop`, `volume`, `skip`, `stop`' },
